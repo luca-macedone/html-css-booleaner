@@ -22,14 +22,47 @@
 #site-header {
     height: 100%;
     width: 100%;
-
-    position: relative;
 }
 
 #site-logo {
     height: 3rem;
 
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+    margin: 50px 0 0 10px;
+}
+
+#site-main-container {
+    width: 100%;
+}
+
+#article-section {
+    width: 98%;
+
+    margin: 0 auto;
+}
+
+#article-title {
+    width: 100%;
+
+    margin: 30px 0 30px;
+}
+
+h1 {
+    font-size: 38px;
+    
+    line-height: 40px;
+}
+
+#article-title p {
+    color: #868686;
+
+    line-height: 16px;
+}
+
+#article-title p span {
+    color: #4ea0ff;
+
+}
+
+#article-date {
+    font-size: 12px;
 }
