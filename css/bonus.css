@@ -1,0 +1,167 @@
+/* 
+    Html reset
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+#site-header-container {
+    height: 100px;
+
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-position: top;
+    background-size: 400px;
+    background-repeat: repeat-x;
+}
+
+#site-header {
+    height: 100%;
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+#site-logo {
+    height: 3rem;
+
+    padding: 50px 0 0 10px;
+}
+
+#site-main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#article-section {
+    width: 98%;
+
+    margin: 0 auto;
+}
+
+#article-title {
+    width: 100%;
+
+    margin: 30px 0 30px;
+}
+
+h1 {
+    font-size: 38px;
+
+    line-height: 40px;
+}
+
+#article-title p {
+    color: #868686;
+
+    line-height: 16px;
+}
+
+#article-title p span {
+    color: #4ea0ff;
+
+}
+
+#article-date {
+    font-size: 12px;
+}
+
+.photo-credits {
+    font-size: 12px;
+}
+
+.article-text {
+    font-size: 14px;
+    line-height: 16px;
+
+    margin: 20px 0 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#article-list {
+    padding-left: 20px;
+}
+
+#article-list li {
+    line-height: 16px;
+}
+
+#article-table {
+    width: 100%;
+
+    border-spacing: 0;
+}
+
+#article-table-head {
+    background-color: #1AABE6;
+    color: #FFFFFF;
+} 
+
+#article-table-head th {
+    text-align: start;
+}
+
+#article-table td:last-child {
+    width: 55%;
+}
+
+.article-table-colored-row {
+    background-color: #b2e6f2;
+}
+
+#see-also {
+    width: 98%;
+
+    margin: 0 auto;
+}
+
+.see-also-title {
+    font-size: 14px;
+
+    color: #868686;
+
+    margin-bottom: 10px;
+}
+
+.see-also-article {
+    height: 150px;
+    width: 230px;
+
+    margin-bottom: 10px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.see-also-article-title {
+    font-size: 20px;
+
+    padding: 10px 10px 0;
+
+    color: #FFFFFF;
+}
+
+#first-suggestion {
+    background-image: url(../img/monitor.jpg);
+}
+
+#second-suggestion {
+    background-image: url(../img/graph.jpg);
+}
+
+#site-footer-container {
+    width: 100%;
+}
+
+#footer {
+    width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+}
