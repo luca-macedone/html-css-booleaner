@@ -3,7 +3,6 @@
 */
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -27,7 +26,7 @@
 #site-logo {
     height: 3rem;
 
-    margin: 50px 0 0 10px;
+    padding: 50px 0 0 10px;
 }
 
 #site-main-container {
@@ -68,7 +67,43 @@ h1 {
 }
 
 .photo-credits {
-
     font-size: 12px;
+}
 
+.article-text {
+    font-size: 14px;
+    line-height: 16px;
+
+    margin: 20px 0 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#article-list {
+    padding-left: 20px;
+}
+
+#article-list li {
+    line-height: 16px;
+}
+
+#article-table {
+    width: 100%;
+
+    border-spacing: 0;
+}
+
+#article-table-head {
+    background-color: #1AABE6;
+    color: #FFFFFF;
+} 
+
+#article-table td:last-child {
+    width: 60%;
+}
+
+.article-table-colored-row {
+    background-color: #b2e6f2;
 }
