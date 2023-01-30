@@ -148,11 +148,11 @@ h1 {
 }
 
 #first-suggestion {
-    background-image: url(../img/monitor.jpg);
+    background-image: url("../img/monitor.jpg");
 }
 
 #second-suggestion {
-    background-image: url(../img/graph.jpg);
+    background-image: url("../img/graph.jpg");
 }
 
 #site-footer-container {
