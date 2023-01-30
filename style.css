@@ -48,7 +48,7 @@
 
 h1 {
     font-size: 38px;
-    
+
     line-height: 40px;
 }
 
@@ -65,4 +65,10 @@ h1 {
 
 #article-date {
     font-size: 12px;
+}
+
+.photo-credits {
+
+    font-size: 12px;
+
 }
